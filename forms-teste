@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms teste</title>
+</head>
+<body>
+    <div class="box" >
+        <form action="">
+            <fieldset>
+                <legend><b>legenda</b></legend>
+<br>
+<div class="inputBox">
+    <input type="text" name="nome" id="nome" class="InputUser" required>
+    <label for="nome">nome completo</label>
+</div>
+<br>
+<div class="inputBox">
+    <input type="text" name="Email" id="Email" class="InputUser" required>
+    <label for="nome">Email</label>
+</div>
+<br>
+<div class="inputBox">
+    
+    <input type="tel" name="Telefone" id="Telefone" class="InputUser" required>
+    <label for="nome">Telefone</label>
+</div>
+<br>
+
+<p>Sexo</p>
+<input type="radio" id="feminino" name="sexo" value="feminino">
+<label for="feminino">Feminino</label>
+<br>
+
+<input type="radio" id="masculino" name="sexo" value="masculino">
+<label for="masculino">Masculino</label>
+<br>
+
+<input type="radio" id="helicoptero" name="sexo" value="helicoptero">
+<label for="helicoptero">Helicóptero</label>
+<br>
+<br>
+<label for="data">Data</label>
+<input type="date" id="data" name="sexo" value="data">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
